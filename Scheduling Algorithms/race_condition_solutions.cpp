@@ -77,9 +77,13 @@ void taskA() {
         flag[0] = true;
         turn = 1;
 
-        while(turn == 1 and flag[1] == true) {
+        while(turn == 1 and flag[1] == true) 
             cout << " Trapped in task A " << endl;
-        }
+        
+
+        // while(flag[1] == true)  // just this condition works
+        //     cout << " Trapped in task A " << endl;
+        
 
         for(int i = 0; i < 1e6; i++) {
             cnt++;
@@ -101,6 +105,10 @@ void taskB() {
 
         while(turn == 0 and flag[0] == true)
             cout << " Trapped in task B " << endl;
+
+
+        // while(flag[0] == true)    // just this condition works
+        //     cout << " Trapped in task B " << endl;
         
 
         for(int i = 0; i < 1e6; i++) {
@@ -127,6 +135,8 @@ int main() {
     cout << cnt << endl;
     return 0;
 }
+
+
 
 
 
