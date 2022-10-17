@@ -2,7 +2,7 @@ from threading import *
 import time
 
 
-sem = Semaphore(1)  
+sem = Semaphore(2)  
 # Semaphore(x) -- x number of threads get parallel execution access
 
 def task(name):
