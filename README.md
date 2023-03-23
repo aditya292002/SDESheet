@@ -1,3 +1,3 @@
 # SDESheet
-It will contain all the DSA questions I will practice daily.
-All the uploaded solutions are leetcode accepted.
+This repo contain all the DSA questions I solve and practice.
+All the uploaded solutions are leetcode (or any similar platform) accepted.
